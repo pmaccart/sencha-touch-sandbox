@@ -1,0 +1,146 @@
+{
+    "id": "ExtBox1-ext-gen2392",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "docked": null,
+        "designer|userClassName": "LetsMeet"
+    },
+    "customConfigs": [],
+    "designerId": "16a712fc-fc9c-4c76-8d67-4bba1b076fbb",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2406",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemTpl": "{first}\n\n",
+                "store": "EventStore",
+                "designer|userClassName": "MyList",
+                "title": "Plans",
+                "iconCls": "time"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen3183",
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top",
+                        "title": "Plans",
+                        "designer|userClassName": "MyTitleBar",
+                        "container|align": null,
+                        "container|pack": "end"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen10710",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": null,
+                                "ui": "confirm",
+                                "iconCls": "add",
+                                "iconMask": true,
+                                "text": "",
+                                "designer|userClassName": "MyButton"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen7005",
+            "type": "navigationview",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyNavigationView",
+                "title": "Friends",
+                "iconCls": "team"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen2414",
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemTpl": "{first} {last}\n",
+                        "store": "FriendStore",
+                        "designer|userClassName": "MyList1",
+                        "title": "Friends"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen5805",
+            "type": "map",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyMap",
+                "title": "Nearby",
+                "iconCls": "locate"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen3696",
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "designer|userClassName": "MyTabBar"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-tab-bar",
+            "expanded": true
+        }
+    ]
+}
